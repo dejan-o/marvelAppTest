@@ -1,0 +1,21 @@
+.search {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 2rem;
+    width: 250px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  
+    &--active {
+     background-color: aqua;
+    }
+  }
+  
+    
+  @media screen and (max-width: 550px){
+    .search{
+      max-width: 80%;
+    }
+  }

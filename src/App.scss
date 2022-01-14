@@ -1,0 +1,92 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(
+      to left,
+      rgba(7,27,82,1) 0%,
+      rgba(0,128,128,1) 100%
+    );
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /*
+  Typography
+  */
+  h1{
+    font-size: 6rem;
+  }
+  
+  h2{
+    font-size: 3rem;
+  }
+  
+  h3{
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.6rem;
+  }
+  
+  .main-header {
+    padding: 20px;
+    color: #0ccac4;
+  }
+  
+  @media screen and (max-width: 1500px){
+    .app {
+      width: 1100px
+    }
+  }
+  
+  @media screen and (max-width: 1024px){
+    .app {
+      width: 800px
+    }
+  }
+  
+  @media screen and (max-width: 800px){
+    .app {
+      width: 600px
+    }
+  }
+  
+  @media screen and (max-width: 550px){
+    h1{
+      font-size:3rem;
+    }
+    .app {
+      padding: 10px;
+      width: 330px;
+      max-width: 90vh;
+    }
+  }
+  
+  
+  @media screen and (max-width: 300px){
+    h1{
+      font-size:2rem;
+    }
+    .app {
+      width: 260px
+    }
+  }
+  
+  

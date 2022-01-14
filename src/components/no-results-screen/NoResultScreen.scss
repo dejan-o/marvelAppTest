@@ -1,0 +1,11 @@
+.no-result-screen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+    &__content {
+        font-size: 30px;
+    }
+}
